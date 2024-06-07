@@ -10,7 +10,13 @@ const SinglePostPage = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Title</h1>
         <div className={styles.detail}>
-          <Image className={styles.avatar} src="/post.png" alt="" fill />
+          <Image
+            className={styles.avatar}
+            src="/post.png"
+            alt=""
+            width={50}
+            height={50}
+          />
           <div className={styles.detailText}>
             <span className={styles.detailTitle}>Author</span>
             <span className={styles.detailValue}>Date</span>

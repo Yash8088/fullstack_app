@@ -1,6 +1,8 @@
 "use client";
 import styles from "./links.module.css";
 import NavLink from "./navLink/navLink";
+import Image from "next/image";
+
 import { useState } from "react";
 //defining an array of link objects, with title and path
 const links = [
@@ -50,12 +52,15 @@ const Links = () => {
         )}
       </div>
       {/* on click , set state open and make the previous  value the opposite*/}
-      <button
+      <Image
         className={styles.menuButton}
+        src="/menu.png"
+        alt=""
+        width={30}
+        height={30}
         onClick={() => setOpen((prev) => !prev)}
-      >
-        Menu
-      </button>
+      />
+
       {
         //check if menu is open, if it is then do the parentheses
         open && (
