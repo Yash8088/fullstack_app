@@ -16,6 +16,8 @@
 
 .desc {
   font-size: 20px;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
 }
 
 .buttons {
@@ -31,7 +33,7 @@
   border-radius: 5px;
 }
 
-.button:first-child {
+.buttons > :first-child > .button {
   background-color: var(--btn);
   color: var(--text);
 }
@@ -43,8 +45,14 @@
   filter: grayscale(1);
 }
 .imgContainer {
-  flex: 1;
+  display: flex;
   position: relative;
+  width: 100%;
+
+  background-color: red;
+}
+.heroImg {
+  object-fit: cover;
 }
 
 @media (max-width: 1024px) {

@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        Logo
+        IMA
       </Link>
       <div>
         <Links /> {/* nextjs uses link instead of anchor tags */}
