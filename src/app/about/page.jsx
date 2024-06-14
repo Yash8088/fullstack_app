@@ -17,7 +17,7 @@ const AboutPage = () => {
         <p className={styles.desc}>
           We create digital ideas that are bigger, bolder, braver, and better.
           We believe in good ideas, flexibility, and precision. Our special team
-          provides the world's best consulting and finance solutions, along with
+          provides the worlds best consulting and finance solutions, along with
           a wide range of web and software development services.
         </p>
         <div className={styles.boxes}>
